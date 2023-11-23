@@ -21,3 +21,4 @@ for music_label in music_label_list:
     href =music_label.xpth('./@href')[0]
     music_id = href.split('=')[1]
     music_name = music_label.xpth('./text()')[0]
+测试是否推从成功
